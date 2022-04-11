@@ -5,7 +5,7 @@ module Api
     resource :stocks do
       desc 'List all stocks with bearer information'
       get do
-        stocks = Stock.all
+        stocks = Stock.all.includes(:bearer)
         present stocks, with: Entities::Stock
       end
 
