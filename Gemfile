@@ -5,18 +5,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.1'
 
-gem 'rails', '~> 7.0.2', '>= 7.0.2.3'
-
-gem 'sqlite3', '~> 1.4'
-
-gem 'puma', '~> 5.0'
-
+gem 'acts_as_paranoid', '~> 0.8.0'
 gem 'bootsnap', require: false
-
+gem 'brakeman', '~> 5.2'
+gem 'bundler-audit', '~> 0.9.0'
 gem 'grape', '~> 1.6'
 gem 'grape-entity', '~> 0.10.1'
-
-gem 'acts_as_paranoid', '~> 0.8.0'
+gem 'puma', '~> 5.0'
+gem 'rails', '~> 7.0.2', '>= 7.0.2.3'
+gem 'sqlite3', '~> 1.4'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
