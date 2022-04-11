@@ -41,4 +41,5 @@ group :development do
   gem 'rubocop-performance', '~> 1.13'
   gem 'rubocop-rails', '~> 2.14'
   gem 'rubocop-rspec', '~> 2.9'
+  gem 'shoulda-matchers', '~> 5.1'
 end
