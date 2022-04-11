@@ -66,6 +66,9 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    acts_as_paranoid (0.8.0)
+      activerecord (>= 5.2, < 7.1)
+      activesupport (>= 5.2, < 7.1)
     ast (2.4.2)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
@@ -250,6 +253,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  acts_as_paranoid (~> 0.8.0)
   bootsnap
   debug
   factory_bot_rails (~> 6.2)

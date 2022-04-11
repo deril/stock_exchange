@@ -6,7 +6,7 @@ module Api
       extend Grape::API::Helpers
 
       def error_record_not_found(error)
-        error!({ error: error.message }, 404)
+        error!({ error: "Cannot find #{error.model}" }, 404)
       end
 
       def error_record_invalid(error)
