@@ -8,3 +8,17 @@ AllCops:
 
 Style/Documentation:
   Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+    - app/controllers/api/**/*
