@@ -1,24 +1,8 @@
-# README
+# StockExchange
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## API
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* `GET /stocks` - Returns a list of all stocks
+* `POST /stocks` - Creates a new stock with bearer
+* `PATCH /stocks/:id` - Updates a stock
+* `DELETE /stocks/:id` - Deletes a stock
