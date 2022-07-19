@@ -12,7 +12,7 @@ gem 'bundler-audit', '~> 0.9.0'
 gem 'grape', '~> 1.6'
 gem 'grape-entity', '~> 0.10.1'
 gem 'puma', '~> 5.0'
-gem 'rails', '~> 7.0.2', '>= 7.0.2.3'
+gem 'rails', '~> 7.0', '>= 7.0.2.3'
 gem 'sqlite3', '~> 1.4'
 
 group :development, :test do
