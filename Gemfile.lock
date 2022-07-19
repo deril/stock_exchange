@@ -269,7 +269,7 @@ DEPENDENCIES
   grape (~> 1.6)
   grape-entity (~> 0.10.1)
   puma (~> 5.0)
-  rails (~> 7.0.2, >= 7.0.2.3)
+  rails (~> 7.0, >= 7.0.2.3)
   rspec-rails (~> 5.1)
   rubocop (~> 1.27)
   rubocop-performance (~> 1.13)
